@@ -1,0 +1,17 @@
+﻿Organism,Density_kgm3,Diameter_um,Diameter_m,Density_Sw,Organism_code
+Crocosphaera small,1035,3,0.000003,1.009756098,1
+Crocosphaera large,1035,6,0.000006,1.009756098,1
+R acumata low density,1021.2,122,0.000122,0.996292683,2
+R acumata high density,1025.8,122,0.000122,1.000780488,2
+Prochlorococcus,917.1974522,0.5,0.0000005,0.894826783,3
+Prochlorococcus,2415.286624,0.5,0.0000005,2.356377194,3
+SAR11 HTCC1062,298.566879,0.4,0.0000004,0.29128476,4
+SAR11 HTCC7211,1492.834395,0.4,0.0000004,1.4564238,4
+V splendidus 13B01 exponential,1698.5138,1.5,0.0000015,1.657086635,5
+Tricho mid density large colony with gas vesicles ,776.50625,1500,0.0015,0.757567073,6
+Tricho mid density small colony with gas vesicles ,776.50625,100,0.0001,0.757567073,7
+Tricho mid density single cell with gas vesicle ,776.50625,10,0.00001,0.757567073,8
+Trichodesmium mid density large colony with gas vesicle and night N2 fix,1242.25625,1500,0.0015,1.211957317,9
+Trichodesmium mid density small colony with gas vesicle and night N2 fix,1242.25625,100,0.0001,1.211957317,9
+Trichodesmium mid density single cell with gas vesicle and night N2 fix,1242.25625,10,0.00001,1.211957317,9
+Trichodesmium mid density large colony with gas vesicle and night N2 fix and dust particles,,1500,0.0015,1.780890395,11
