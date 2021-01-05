@@ -1,8 +1,5 @@
 % Sinking rates for spheres of various density in seawater.
 %
-% This cannot be the first time such an analysis has been done.
-% need to check literature.
-%
 % Revision History
 % 2020-11-03    mvj    Created.
 % 2020-11-04    nah    added notes 
