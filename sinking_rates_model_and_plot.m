@@ -16,10 +16,15 @@ NU = 1e-6; % m^2/s
 GRAV = 9.81; % m/s^2
 
 % Characteristic dimensions for contours
-D = [1e-7 1e-6 1e-5 1e-4 1e-3 1e-2];
+%D = [1e-7 1e-6 1e-5 1e-4 1e-3 1e-2];
+
+N = 100;
+D = logspace(-7,-2,N);
 
 % Specific gravities aka density relative to seawater for contours
-sigma = [0.2 0.4 0.5 0.8 0.9 0.95 0.98 0.99 1.001 1.002 1.01 1.02 1.05 1.1 1.2 1.5 2 3];
+%sigma = [0.2 0.4 0.5 0.8 0.9 0.95 0.98 0.99 1.001 1.002 1.01 1.02 1.05 1.1 1.2 1.5 2 3];
+sigma = logspace(-4,1,N/2);
+sigma = [-fliplr(sigma) sigma];
 
 %D = 1e-5;
 %sigma = 1.01;
@@ -112,6 +117,7 @@ ylabel({'Specific Gravity (-)'},  'FontSize', 20);
 %title('Terminal Velocity (mm/min)',  'FontSize', 20);
 set(gca,'xscale','log');
 set(gca, 'YDir','reverse');
+ylim([0.2 3])
 
 
 function J = cost(U,D,sigma,nu)
